@@ -1,0 +1,2 @@
+1) write a program to reverse given 3 digit number
+2) write a program to reverse given 4 digit number
