@@ -1,2 +1,44 @@
 1) write a program to reverse given 3 digit number
 2) write a program to reverse given 4 digit number
+
+decision making  
+
+1) write a program to findout whether given year is millennium year or not. using simple decision making statements. using simple decision making statements.
+
+2) write a program to findout smaller triangle from 2 triangle using given length and base of triangles.   using simple decision making statements.
+
+3) write a program to findout which circle is smaller from two circle's radius  given by user   using simple decision making statements.
+
+3.1) write a program to findout which cylinder is bigger from two cylinder's radius and height given by user   using simple decision making statements.
+
+
+3.2) write a program to findout which stock will give better return in terms dividend per 100 Rs from given 2 stock's market price and last year dividend.
+
+4) write a program to calculate bmi and display obesity level of person from given height
+    (foot and inch) and weight.
+
+5) write a program to accept month number from user and display name of the month (switch statements)
+
+6) write a program to check whether given year is leap year or not. (use nested decision making)
+use website wikihow for understanding of concept
+
+8) write a program to accept birth date and month from user. decide zodiac sign from below table 
+Aries: March 21–April 19
+Taurus: April 20–May 20
+Gemini: May 21–June 21
+Cancer: June 22–July 22
+Leo: July 23–August 22
+Virgo: August 23–September 22
+Libra: September 23–October 22
+Scorpio: October 24–November 21
+Sagittarius: November 22–December 21
+Capricorn: December 22–January 19
+Aquarius: January 20–February 18
+Pisces: February 19–March 20
+
+9) write a program to accept birth date and month of male & female. generate & display Zodiac Compatibility for marriage.
+use below image
+https://asknebula.com/images/zodiac-compatibility/zodiac-compatibility-chart.png
+
+10)Write a programe to findout planets name from the user given number 
+
