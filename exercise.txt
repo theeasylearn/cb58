@@ -9,7 +9,7 @@ decision making
 
 3) write a program to findout which circle is smaller from two circle's radius  given by user   using simple decision making statements.
 
-3.1) write a program to findout which cylinder is bigger from two cylinder's radius and height given by user   using simple decision making statements.
+3.1) write a program to findout which cylinder is bigger from two cylinder's radius and height given by user   using if else decision making statements.
 
 
 3.2) write a program to findout which stock will give better return in terms dividend per 100 Rs from given 2 stock's market price and last year dividend.
