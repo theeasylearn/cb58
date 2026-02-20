@@ -40,5 +40,18 @@ Pisces: February 19–March 20
 use below image
 https://asknebula.com/images/zodiac-compatibility/zodiac-compatibility-chart.png
 
-10)Write a programe to findout planets name from the user given number 
+switch decision making statement 
+
+10)Write a program to display name of day from day number 
+    example : day = 1 then display monday 
+    example : day = 2 then display tuesday 
+
+11) write a program to accept zodiac sign from user as number for example 
+    Aries = 1      
+    Taurus = 2
+    ....
+    Pisces: 12
+    then display compatible and incompatible zodiac sign for marriage use below chart to display message
+    https://www.wikihow.com/What-Astrology-Sign-Am-I-Most-Compatible-with
+
 
