@@ -54,4 +54,10 @@ switch decision making statement
     then display compatible and incompatible zodiac sign for marriage use below chart to display message
     https://www.wikihow.com/What-Astrology-Sign-Am-I-Most-Compatible-with
 
+loop 
 
+while loop 
+1) 2    4   6   8   ... 100
+2) -1  -2  -3 - 4 -5 ... -100
+3) 1    4   9   16  25  36  49  .... 100
+4) 1    8   27  64  125     1000
