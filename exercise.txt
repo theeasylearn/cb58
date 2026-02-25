@@ -61,3 +61,6 @@ while loop
 2) -1  -2  -3 - 4 -5 ... -100
 3) 1    4   9   16  25  36  49  .... 100
 4) 1    8   27  64  125     1000
+
+5) write a program to calculate  & display wrackage value of given vehicle using given purchase price, usage year and depreciation rate.
+
