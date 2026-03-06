@@ -94,6 +94,29 @@ write a program to findout name of week day from given date.
 input : 28-02-2026 -> Saturday
 https://www.wikihow.com/Calculate-the-Day-of-the-Week
 
+
+*
+* * 
+* * *
+* * * * 
+* * * * *
+* * * * 
+* * *
+* * 
+*
+
+1
+1 2
+1 2 1
+1 2 1 2
+1 2 1 2 1
+
+        *
+      * *
+    * * *
+  * * * *
+* * * * * 
+
 array
 
 // write a program to findout minimum value from array

@@ -72,7 +72,7 @@ nested loop
         printf("(");
         //inner while loop start
         j=1;
-        while(j<=3) //inner while loop 
+        while(j<=3) //inner  loop 
         {
             printf("%2d",j);
             j = j + 1;
