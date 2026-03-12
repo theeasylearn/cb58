@@ -162,15 +162,18 @@ functions
 
  functions 
  ----------------------
- 1) write a program to crate function that return interest of given amount, rate, year supplied as input 
+ 1) write a program to create function that display today'date and time using user defined function. 
 
- 2) write a program to create function that return total of five integer numbers given as arguments 
+ 2) write a program to create function that will display addition, subtraction, multiplication and division of 2 numbers received as arguments . 
+
+ 3) write a program to crate function that return interest of given amount, rate, year supplied as input 
+
+ 4) write a program to create function that return total of five integer numbers given as arguments 
  
- 3) write a program to that return square of given number.
+ 5) write a program to that return square of given number.
 
- 4) write a program to that return qube of given number.
+ 6) write a program to that return qube of given number.
+ 
+ 7) write a program to display given decimal number into octal number system.
 
-
- 5) write a program to display given decimal number into octal number system.
-
- 6) write a program to display given decimal number into hexadecimal number system.
+ 8) write a program to display given decimal number into hexadecimal number system.

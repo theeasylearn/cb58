@@ -7,9 +7,9 @@ What is functions?
         4 body (block of code) (compulsory)
 
     each and every function should do only one task.
-    we create function not not to repeat same code in program. 
+    we create function with objective of not to repeat same code in different parts of the program. 
     if we repeat code there will be many issue while updating code. 
-    but if we use functions then  code will be shorter, easy to understand and easy to change. 
+    but if we use functions then  code will be not repetitive & shorter, easy to understand and easy to change. 
     function can return at most 1 value.
 
     types of function
@@ -23,24 +23,26 @@ What is functions?
 
             there are 4 types of U.D.F.
                 1   without return value without argument(input) function 
-                    function that return nothing and has no argument is called without return value without argument function 
+                    function that return nothing and has no argument is called without return value without argument function one example clrscr()
 
                 2   without return value with argument(input) function 
-                    function that return nothing and has one or more arguments is called without return value with argument function.    
+                    function that return nothing and has one or more arguments is called without return value with argument function. one example is printf()     
 
                 3   with return value without argument function
-                    function that return value and has no arguments is called with return value without argument function
+                    function that return value and has no arguments is called with return value without argument function. 
 
                 4   with return value with argument function 
                     function that return value and has one or more arguments is called with return value without argument function.
 
         how to create/define user defined function 
+
         syntax 
         -----------------------------------
         return type(int/float/char/void) function-name(arguments)
         {
             code
                 variable declare
+                expression/statement
                 decision making 
                 loop 
                 function call 
