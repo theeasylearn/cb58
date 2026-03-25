@@ -137,8 +137,9 @@ https://www.wikihow.com/Calculate-the-Day-of-the-Week
 
 array
 
-// write a program to findout minimum value from array
-// write a program to count negative and positive value in float array of size 10 
+// write a program to accept input in double type array of size 8 from user. display it. and find out whether user given value exist in array or not. if found display position of value otherwise display message value not found in array 
+
+// write a program to count no of negative and positive value in float array of size 10 
 
 String 
 write a program to cound words in given string

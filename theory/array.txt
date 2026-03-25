@@ -12,24 +12,25 @@ array is special type of variable in which we can store multiple values. each va
 all the value in array must be same type in c language.
 size of the array must be set at the time of creating array. 
 during execution of program size can not be changed. 
-we can change value at any given position. but we can not add & delete value. 
+we can change value at any given position. but we can also set value at given position. however size of array is fixed. 
 
 how to create an array?
+
 syntax 
 ------------------
 datatype array[size];
 
 example
-int age[5];
+int marks[5];
 
-how to store/change value in array?
-age[0] = 25;
+how to set/change value in array?
+marks[0] = 25;
 
 how to access/display array
-printf("%d",age[0]);
+printf("%d",marks[0]);
 
 how to take input from user into array
-scanf("%d",&age[0]);
+scanf("%d",&mark[0]);
 
 types of array 
 one dimensional array 
