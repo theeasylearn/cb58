@@ -142,9 +142,13 @@ array
 // write a program to count no of negative and positive value in float array of size 10 
 
 String 
-write a program to cound words in given string
+write a program to count words in given string
 input : hello how are you 
 output : 4
+
+write a program to count vowels, digit, space and consonant 
+input: ankit patel 12 
+output : vowels : 4 space 2 digit 2 consonant = 6
 
 2d array 
 1) write a program to copy 2d integer array into another array 
