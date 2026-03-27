@@ -150,6 +150,7 @@ write a program to count vowels, digit, space and consonant
 input: ankit patel 12 
 output : vowels : 4 space 2 digit 2 consonant = 6
 
+write a program to convert uppercase string into lower case letter by letter 
 2d array 
 1) write a program to copy 2d integer array into another array 
 2) write a program to sum of all value in 2d array
