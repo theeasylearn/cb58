@@ -1,3 +1,4 @@
+// write a program to convert user given lower case string into uppercase
 #include <stdio.h>
 /*
     create 2 array of char type name and name2
