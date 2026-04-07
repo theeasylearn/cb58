@@ -7,19 +7,16 @@ void main()
     // create an array
     float weight[SIZE], minimum, maximum;
     int index = 0;
-
-    // input
     while (index < SIZE)
     {
-        printf("Enter %d person weight", index + 1);
+        printf("enter %d person weight", index + 1);
         scanf("%f", &weight[index]);
         index++;
     }
+    minimum = weight[0]; // assume 0th person minimum
+    maximum = weight[0]; // assume 0th person maximum
 
-    minimum = weight[0];
-    maximum = weight[0];
-    index = 0;
-    while(index<SIZE)
+    for (index = 1; index < SIZE; index++)
     {
         if (weight[index] < minimum)
         {
@@ -29,9 +26,6 @@ void main()
         {
             maximum = weight[index];
         }
-        index++;
     }
-    //display minimum maximum
-    printf("minimum = %.2f",minimum);
-    printf("\nmaximum = %.2f",maximum);
+    printf("\n minimum = %f maximum = %f", minimum, maximum);
 }

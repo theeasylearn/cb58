@@ -7,24 +7,26 @@ void main()
     // create an array
     int marks[SIZE], total = 0;
     float average;
-    // accept input
-    for (int index = 0; index < SIZE; index = index + 1)
+
+    for (int index = 0; index < SIZE; index++)
     {
         printf("Enter marks for %d subject", index + 1);
         scanf("%d", &marks[index]);
     }
-    // total
-    for (int index = 0; index < SIZE; index = index + 1)
+
+    for (int index = 0; index < SIZE; index++)
     {
-        total = total + marks[index];
+        total = total + marks[0];
     }
+
     // calculate
     average = total / SIZE;
-    //display marks
-    for (int index = 0; index < SIZE; index = index + 1)
+    for (int index = 0; index < SIZE; index++)
     {
-        printf("%d subject = %d \n",index+1, marks[index]);
+        // display marks
+        printf("%d subject marks = %d \n",index+1,marks[index]);
     }
-    //display total & average
-    printf("total = %d \naverage = %.2f",total,average);
+    
+    // display total & average
+    printf("total = %d \naverage = %.2f", total, average);
 }
