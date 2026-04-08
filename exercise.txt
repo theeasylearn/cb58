@@ -183,3 +183,19 @@ functions
  7) write a program to display given decimal number into octal number system.
 
  8) write a program to display given decimal number into hexadecimal number system.
+
+
+ structure 
+ 1) create structure to store product data and then display it 
+    store below detail 
+      name, 
+      price 
+      weight 
+      quantity
+2) use above structure and store 10 product data  (array of structure)
+      input 
+      output
+      cheapest 
+      costliest 
+      total value of stock 
+    
