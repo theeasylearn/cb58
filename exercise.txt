@@ -198,4 +198,3 @@ functions
       cheapest 
       costliest 
       total value of stock 
-    
