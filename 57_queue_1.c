@@ -1,9 +1,63 @@
 // #stack using array in c language
 #include <stdio.h>
-#define SIZE 5
+#define SIZE 10
+// global variable
+int item, front = -1, rear = -1, queue[SIZE];
+// user defined function
+void Enqueue()
+{
+    if (front == -1)
+    {
+        front = 0;
+    }
+    if (rear == SIZE - 1)
+    {
+        printf("Queue is full");
+    }
+    else
+    {
+        rear++; // 0
+        printf("Enter item to insert in queue (Enqueue)");
+        scanf("%d", &item); // 10
+        queue[rear] = item;
+    }
+}
+void Display()
+{
+    if (front == -1)
+    {
+        printf("\n queue is empty \n");
+    }
+    else
+    {
+        for (int index = front; index <= rear; index++)
+        {
+            printf("%d \t", queue[index]);
+        }
+    }
+}
+void Dequeue()
+{
+    // Dequeue
+    if (front > rear || front == -1)
+    {
+        printf("\n queue is empty");
+        if (rear == SIZE - 1)
+        {
+            front = -1;
+            rear = -1;
+        }
+    }
+    else
+    {
+        printf("\n value removed from queue %d", queue[front]);
+        queue[front] = 0;
+        front++;
+    }
+}
 void main()
 {
-    int choice, item, front = -1, rear = -1, queue[SIZE];
+    int choice;
     do
     {
         printf("\n--- Queue Operations Menu ---\n");
@@ -19,63 +73,59 @@ void main()
         scanf("%d", &choice);
         if (choice == 1)
         {
-            if (front == -1)
-            {
-                front = 0;
-            }
-            if (rear == SIZE - 1)
-            {
-                printf("Queue is full");
-            }
-            else
-            {
-                rear++; // 0
-                printf("Enter item to insert in queue (Enqueue)");
-                scanf("%d", &item); // 10
-                queue[rear] = item;
-            }
+            Enqueue(); // call function
         }
         else if (choice == 2)
         {
-            // Dequeue
+            Dequeue();
         }
         else if (choice == 3)
         {
-            // Peek (Front)
-        }
-        else if (choice == 4)
-        {
-            // Rear
-        }
-        else if (choice == 5)
-        {
-            if (front == -1)
+            if (front == -1 || front > rear)
             {
-                printf("\n queue is empty \n");
+                printf("\n queue is empty");
             }
             else
             {
-                for (int index = front; index <= rear; index++)
-                {
-                    printf("%d \t", queue[index]);
-                }
+                printf("\n value at queue at %d position is %d", front, queue[front]);
             }
+        }
+        else if (choice == 4)
+        {
+            if (front == -1 || front > rear)
+            {
+                printf("\n queue is empty");
+            }
+            else
+            {
+                printf("\n value at queue at %d position is %d", rear, queue[rear]);
+            }
+        }
+        else if (choice == 5)
+        {
+            Display(); // calling function
         }
         else if (choice == 6)
         {
-            // isEmpty
+            if (front == -1 || front > rear)
+            {
+                printf("\n queue is empty");
+            }
         }
         else if (choice == 7)
         {
-            // isFull
+            if (rear == SIZE - 1)
+            {
+                printf("\n queue is full");
+            }
         }
         else if (choice == 0)
         {
-            // Exit
+            printf("\n good bye");
         }
         else
         {
-            // Invalid choice
+            printf("invalid choice");
         }
     } while (choice != 0);
 }
